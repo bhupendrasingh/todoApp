@@ -2,6 +2,9 @@ doctype
 html(ng-app="todoApp")
     head
         title Todo App
+        script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js")
+        script(src='/todolist.js')
+
     body
         p This rendered form the template
         div(ng-controller ="TodoListController as todolist")
